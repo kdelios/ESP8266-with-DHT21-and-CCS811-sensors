@@ -20,7 +20,7 @@
 #include <Wire.h>              // Wire library for I2C protocol
 
 const char* host = "api.thingspeak.com";
-const char* THINGSPEAK_API_KEY = "TOQ2TAIJU4HSWLYS";
+const char* THINGSPEAK_API_KEY = "YOUR_API_KEY";
 const int UPDATE_INTERVAL_SECONDS = 600; // Update post to ThingSpeak every 120 seconds = 2 minutes (120000 ms). Min with ThingSpeak is ~15 seconds for one channel use
 
 Adafruit_CCS811 ccs;                     // CCS811 is connected (I2C) to D1-->SLC-->GPIO5-->Pin5 & D2-->SDA-->GPIO4-->Pin4
